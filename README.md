@@ -64,4 +64,4 @@ Model: Represents the data structure, in this case, a ToDoListItem object.
 
 ## Demo
 
-(https://drive.google.com/open?id=13_1VCC-_e1UoXvnW5rcqG-Sv1-bwaEsV&usp=drive_copy)
+[(https://drive.google.com/open?id=13_1VCC-_e1UoXvnW5rcqG-Sv1-bwaEsV&usp=drive_copy)](https://drive.google.com/file/d/13_1VCC-_e1UoXvnW5rcqG-Sv1-bwaEsV/view)
