@@ -64,5 +64,4 @@ Model: Represents the data structure, in this case, a ToDoListItem object.
 
 ## Demo
 
-
-([https://github.com/elifcagil/ToDoListApp/tree/main/To-Do-List/demo](https://github.com/elifcagil/ToDoListApp/blob/main/To-Do-List/demo/Simulator%20Screen%20Recording%20-%20iPhone%2016%20Pro%20-%202025-04-06%20at%2019.50.20.mp4))
+(https://drive.google.com/open?id=13_1VCC-_e1UoXvnW5rcqG-Sv1-bwaEsV&usp=drive_copy)
