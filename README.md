@@ -62,6 +62,7 @@ ViewModel: Handles the logic and business rules, such as creating, updating, or 
 
 Model: Represents the data structure, in this case, a ToDoListItem object.
 
+## Demo
 
 
-
+([https://github.com/elifcagil/ToDoListApp/tree/main/To-Do-List/demo](https://github.com/elifcagil/ToDoListApp/blob/main/To-Do-List/demo/Simulator%20Screen%20Recording%20-%20iPhone%2016%20Pro%20-%202025-04-06%20at%2019.50.20.mp4))
