@@ -1,67 +1,87 @@
-## To-Do List App
+# 📝 To-Do List App
 
-This is a To-Do List app developed with Swift and CoreData. It helps users to manage their daily tasks by adding, updating, completing, and deleting tasks.
+A clean, efficient, and user-friendly **To-Do List app** built with **Swift** and **Core Data**. Easily manage your daily tasks with features like adding, editing, completing, and filtering tasks — all wrapped in a simple yet elegant UI.
 
-#Features
+---
 
-Add New Tasks: Users can add new tasks with a name, description, and due date.
+## ✨ Features
 
-View Task Details: Users can see the details of a specific task, including its name, description, creation date, end date, and completion status.
+- **➕ Add New Tasks**  
+  Create tasks with a name, description, and due date.
 
-Mark Tasks as Completed: Users can mark tasks as completed. Once completed, tasks will move to the bottom of the list.
+- **🔍 View Task Details**  
+  Tap on any task to see its full details — including creation date, due date, and completion status.
 
-Edit and Delete Tasks: Users can edit existing tasks or delete them.
+- **✅ Mark as Completed**  
+  Complete tasks with a single tap. Completed tasks are moved to the bottom of the list for clarity.
 
-Filter Completed Tasks: Users can filter and display only the completed tasks.
+- **✏️ Edit or 🗑 Delete Tasks**  
+  Swipe on a task to quickly edit its details or delete it entirely.
 
-## How to Use
+- **📂 Filter Completed Tasks**  
+  Use the "Show Completed" button to view only tasks that are marked as done.
 
-Adding a Task:
-Tap the + button in the top right corner.
+---
 
-A form will appear asking for the task name and description.
+## 📲 How to Use
 
-Select the due date using the date picker.
+### Adding a Task
+1. Tap the **"+"** button in the top-right corner.
+2. Fill out the form: enter the task name and description.
+3. Choose a **due date** via the date picker.
+4. Tap **"Submit"** to save the task.
 
-Tap "Submit" to add the task to the list.
+### Viewing Task Details
+- Tap any task from the list to open the **detail view**.
+- You’ll see its full information, including creation date and completion status.
 
-Viewing Task Details:
-Tap on any task in the list.
+### Marking as Completed
+- Tap the **"Completed"** button next to a task.
+- The task will move to the bottom and be marked as done.
 
-The ToDoDetayViewController will open, showing the task's name, description, creation date, end date, and completion status.
+### Editing or Deleting
+- **Swipe left** on a task to reveal **Edit** and **Delete** options.
+- Tap **Edit** to update the task.
+- Tap **Delete** to remove it from the list.
 
-Marking a Task as Completed:
-Tap the "Completed" button next to the task.
+### Filtering
+- Tap **"Show Completed"** to filter and view only completed tasks.
 
-The task will move to the bottom of the list and will be marked as completed.
+---
 
-Editing or Deleting a Task:
-Swipe left on a task to reveal the "Delete" and "Edit" buttons.
+## 🛠 Technical Details
 
-Tap Edit to modify the task's details, such as name, description, or due date.
+- **Frameworks:** UIKit, Core Data  
+- **Architecture:** MVVM (Model-View-ViewModel)  
+- **Persistent Storage:** Core Data  
 
-Tap Delete to remove the task from the list.
+---
 
-Filter Completed Tasks:
-Tap the "Show Completed" button to filter the tasks and show only those marked as completed.
+## 🧠 MVVM Breakdown
 
-## Technical Details
+- **Model**:  
+  `ToDoListItem` — Represents the structure and properties of a task.
 
+- **View**:  
+  Handles UI components like the task list and detail view.
 
-Framework: UIKit, CoreData
+- **ViewModel**:  
+  Contains the business logic for adding, updating, deleting, and fetching tasks. Works as a bridge between the view and the Core Data layer.
 
-Design Pattern: MVVM (Model-View-ViewModel)
+---
 
-Persistent Storage: CoreData is used to store the tasks.
+## 🎬 Demo
 
-## MVVM Architecture:
+![ToDoListApp Demo](ToDoListApp.gif)
 
-View: Displays the user interface, such as the task list and task details.
+---
 
-ViewModel: Handles the logic and business rules, such as creating, updating, or deleting tasks. It communicates with the CoreDataManager to persist the data.
+## 🤝 Contributing
 
-Model: Represents the data structure, in this case, a ToDoListItem object.
+Feel free to fork the repository, submit issues, or make pull requests if you want to improve the project. Contributions are always welcome!
 
-## Demo
+---
 
-[(https://drive.google.com/open?id=13_1VCC-_e1UoXvnW5rcqG-Sv1-bwaEsV&usp=drive_copy)](https://drive.google.com/file/d/13_1VCC-_e1UoXvnW5rcqG-Sv1-bwaEsV/view)
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
