@@ -1,6 +1,6 @@
 # 📝 To-Do List App
 
-A clean, efficient, and user-friendly **To-Do List app** built with **Swift** and **Core Data**. Easily manage your daily tasks with features like adding, editing, completing, and filtering tasks — all wrapped in a simple yet elegant UI.
+A clean, efficient, and user-friendly **To-Do List app** built with **Swift**, **Core Data**, and **MVVM architecture**. Easily manage your daily tasks with features like adding, editing, completing, and filtering tasks — all wrapped in a simple yet elegant UI.
 
 ---
 
@@ -51,6 +51,7 @@ A clean, efficient, and user-friendly **To-Do List app** built with **Swift** an
 
 ## 🛠 Technical Details
 
+- **Language:** Swift  
 - **Frameworks:** UIKit, Core Data  
 - **Architecture:** MVVM (Model-View-ViewModel)  
 - **Persistent Storage:** Core Data  
@@ -59,14 +60,18 @@ A clean, efficient, and user-friendly **To-Do List app** built with **Swift** an
 
 ## 🧠 MVVM Breakdown
 
+This project is built using the **MVVM (Model-View-ViewModel)** design pattern for better code organization and maintainability.
+
 - **Model**:  
-  `ToDoListItem` — Represents the structure and properties of a task.
+  `ToDoListItem` — Represents the data structure of a task, including its properties like name, description, and dates.
 
 - **View**:  
-  Handles UI components like the task list and detail view.
+  All the UI components such as task list, detail view, and input forms that interact with the user.
 
 - **ViewModel**:  
-  Contains the business logic for adding, updating, deleting, and fetching tasks. Works as a bridge between the view and the Core Data layer.
+  Encapsulates the logic for adding, updating, deleting, and fetching tasks. It communicates with the `CoreDataManager` to persist data and exposes observable data to the views.
+
+By separating concerns, MVVM allows the app to be **more testable**, **scalable**, and **cleanly structured**.
 
 ---
 
