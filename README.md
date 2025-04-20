@@ -77,8 +77,9 @@ By separating concerns, MVVM allows the app to be **more testable**, **scalable*
 
 ## 🎬 Demo
 
-![ToDoListApp Demo](ToDoListApp.gif)
-
+<p align="center">
+  <img src="ToDoListApp.gif" alt="ToDoListApp Demo" width="300" />
+</p>
 ---
 
 ## 🤝 Contributing
